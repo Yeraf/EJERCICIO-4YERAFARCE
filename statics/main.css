@@ -1,0 +1,43 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+:root {
+    --background--color: #9f9ffd;
+    --nav--color: #D6AFDC;
+}
+
+html {
+    background: var(--background--color);
+}
+
+nav {
+    width: 100%;
+    height: 20px;
+    padding: 15px;
+    text-align: left;
+    float: left;
+    background: var(--nav--color);
+}
+
+h1 {
+    clear: both;
+}
+
+a {
+    margin-left: 20px;
+    padding: 8px;
+    color: #fff;
+    font-size: 20px;
+    text-align: justify;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+a:hover {
+    background: blue;
+    cursor: pointer;
+}
+
+
